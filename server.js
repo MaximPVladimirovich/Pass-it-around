@@ -2,7 +2,7 @@ const express = require(`express`)
 const app = express()
 const port = 3000;
 
-let beers = 10;
+let beers = 99;
 app.get(`/`, (req, res) => {
     res.send(`<h2> ${beers} bottles of beer on the wall</h2> <a href="/${beers}">take one down, pass it around</a>`)
 
